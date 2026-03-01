@@ -1,36 +1,279 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Prashanth Chitturi</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 100px;
-            background-color: #f8f9fa;
-        }
-        h1 {
-            font-size: 32px;
-        }
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            text-decoration: none;
-            background-color: black;
-            color: white;
-            border-radius: 5px;
-        }
-        a:hover {
-            background-color: #333;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashanth Chitturi | AI & Data Science Engineer</title>
+    <meta name="description"
+        content="Portfolio of Prashanth Chitturi, an AI-focused Engineering Data Science graduate student with strong industry and academic experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Boxicons for elegant icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <h1>Prashanth Chitturi</h1>
-    <p>Engineering Data Science Graduate Student</p>
-    <a href="Prashanth_Resume.pdf" target="_blank">
-        View Resume
-    </a>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <nav class="navbar hidden" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">PC<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero hidden">
+        <div class="hero-content text-focus-in">
+            <div class="badge">Open to Opportunities</div>
+            <h1 class="glitch-text" data-text="Prashanth Chitturi">Prashanth Chitturi</h1>
+            <h2 class="gradient-text type-writer">AI & Data Science Engineer</h2>
+
+            <p class="hero-desc">
+                AI-focused Engineering Data Science graduate student with strong industry and academic experience in
+                machine learning, deep learning, NLP, and cloud systems. Actively building real-world AI solutions
+                through research projects and teaching assistance, with a passion for developing scalable, reliable, and
+                impactful intelligent systems.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="Prashanth_Resume.pdf" target="_blank" class="btn btn-outline">
+                    <i class='bx bx-download'></i> Download Resume (PDF)
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/cprashanthgit/" target="_blank" aria-label="GitHub"><i
+                        class='bx bxl-github'></i></a>
+                <a href="mailto:dchittu2@cougarnet.uh.edu" target="_blank" aria-label="Email"><i
+                        class='bx bx-envelope'></i></a>
+                <a href="https://www.linkedin.com/in/prashanth-ch" target="_blank" aria-label="LinkedIn"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="tel:+18327232095" aria-label="Phone"><i class='bx bx-phone'></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title hidden">Professional <span>Experience</span></h2>
+            <div class="timeline">
+
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>Graduate Teaching Assistant</h3>
+                            <span class="timeline-date">Aug 2025 — May 2026</span>
+                        </div>
+                        <h4 class="timeline-company">University of Houston | Houston, TX</h4>
+                        <ul class="timeline-list">
+                            <li><strong>AI for Engineers:</strong> Assisting in framing the course structure, developing
+                                learning modules, and preparing instructional materials aligned with real-world AI
+                                engineering applications while designing and grading assignments tied to
+                                industry-relevant use cases.</li>
+                            <li>Supporting students with projects, assignments, and technical problem-solving, while
+                                grading assignments and examinations with consistent and fair evaluation standards.</li>
+                            <li><strong>Natural Language Processing:</strong> Served as Teaching Assistant for a
+                                graduate-level Natural Language Processing course, supporting instruction on rule-based
+                                NLP, deep learning models, transformers, and large language models.</li>
+                            <li>Assisted the professor by resolving student doubts, grading assignments, and
+                                contributing to assignment design, helping to improve overall student understanding and
+                                performance.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>System Engineer – Data & Cloud Engineering</h3>
+                            <span class="timeline-date">Aug 2021 — Jul 2024</span>
+                        </div>
+                        <h4 class="timeline-company">Tata Consultancy Services | Hyderabad, IN</h4>
+                        <ul class="timeline-list">
+                            <li>Built and optimized enterprise data pipelines using SSIS and SQL Server while tuning
+                                complex SQL queries to reduce ETL execution time and improve analytics reliability.</li>
+                            <li>Migrated on-premises databases, applications, and SFTP servers to AWS EC2 with secure
+                                firewall and access configurations, reducing infrastructure maintenance costs by 60% and
+                                improving system scalability.</li>
+                            <li>Orchestrated ETL job scheduling, dependency management, and disaster-recovery execution
+                                using SQL Agent to ensure high availability, reliability, and business continuity of
+                                cloud-hosted data systems.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title hidden">Education Background</span></h2>
+            <div class="grid-2 hidden">
+                <div class="glass-card edu-card fancy-hover">
+                    <div class="edu-icon"><i class='bx bxs-graduation'></i></div>
+                    <h3>Master of Science</h3>
+                    <h4 class="gradient-text">Engineering Data Science</h4>
+                    <p class="edu-school">University of Houston, TX</p>
+                    <div class="edu-meta">
+                        <span class="edu-stat"><i class='bx bx-check-circle'></i> GPA: 4.0/4.0</span>
+                        <span class="edu-date">Expected May 2026</span>
+                    </div>
+                </div>
+
+                <div class="glass-card edu-card fancy-hover">
+                    <div class="edu-icon"><i class='bx bxs-book-reader'></i></div>
+                    <h3>Bachelor of Technology</h3>
+                    <h4 class="gradient-text">Mechanical Engineering</h4>
+                    <p class="edu-school">V R Siddhartha Engineering College, India</p>
+                    <div class="edu-meta">
+                        <span class="edu-stat"><i class='bx bx-check-circle'></i> GPA: 8.91/10</span>
+                        <span class="edu-date">June 2021</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title hidden">Technical Skills</h2>
+            <div class="skills-container hidden">
+                <div class="glass-card skill-category fancy-hover">
+                    <h3><i class='bx bxl-python'></i> Tools & Languages</h3>
+                    <div class="skill-chips">
+                        <span class="chip">Python</span> <span class="chip">SQL</span> <span class="chip">R</span> <span
+                            class="chip">Java</span> <span class="chip">C/C++</span> <span class="chip">.NET</span>
+                        <span class="chip">HTML/CSS</span> <span class="chip">Git</span> <span class="chip">Linux</span>
+                        <span class="chip">AWS</span> <span class="chip">Docker</span> <span
+                            class="chip">Kubernetes</span> <span class="chip">SQL Server</span> <span class="chip">Power
+                            BI</span> <span class="chip">Tableau</span> <span class="chip">TensorFlow</span> <span
+                            class="chip">PyTorch</span> <span class="chip">Keras</span> <span
+                            class="chip">Scikit-Learn</span> <span class="chip">Hugging Face</span> <span
+                            class="chip">Pandas</span> <span class="chip">NumPy</span>
+                    </div>
+                </div>
+
+                <div class="glass-card skill-category fancy-hover">
+                    <h3><i class='bx bx-brain'></i> AI & Technologies</h3>
+                    <div class="skill-chips">
+                        <span class="chip neon">Machine Learning</span> <span class="chip neon">Deep Learning</span>
+                        <span class="chip neon">Gen AI</span> <span class="chip neon">Transformers</span> <span
+                            class="chip neon">Embeddings</span> <span class="chip neon">NLP</span> <span
+                            class="chip neon">NER</span> <span class="chip neon">Topic Modeling</span> <span
+                            class="chip neon">Prompt Engineering</span> <span class="chip neon">RAG</span> <span
+                            class="chip neon">Agentic AI</span> <span class="chip neon">ETL Pipelines</span> <span
+                            class="chip neon">Feature Engineering</span> <span class="chip neon">Big Data
+                            Analytics</span> <span class="chip neon">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title hidden">Featured <span>Projects</span></h2>
+            <div class="grid-3 hidden">
+
+                <a href="https://github.com/cprashanthgit/" target="_blank" class="glass-card project-card hover-lift">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class='bx bx-folder'></i></div>
+                        <div class="project-links">
+                            <span class="project-date">March 2025</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Medical QA using Transformers & LLMs</h3>
+                    <p class="project-desc">
+                        Developed and evaluated transformer and LLM-based pipelines on the MedQA dataset using
+                        fine-tuning and prompt-engineering. Benchmarked BioBERT, BioGPT, and BioBART against GPT-3.5,
+                        GPT-4o, and Gemini achieving 75–80% accuracy.
+                    </p>
+                    <div class="project-tech">
+                        <span>NLP</span> <span>LLMs</span> <span>Transformers</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/cprashanthgit/" target="_blank" class="glass-card project-card hover-lift">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class='bx bx-image-alt'></i></div>
+                        <div class="project-links">
+                            <span class="project-date">Nov 2025</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">GAN-Based Skin Lesion Classification</h3>
+                    <p class="project-desc">
+                        Designed DCGAN and class-specific GAN architectures to generate 2,100 balanced synthetic
+                        dermoscopic images for the HAM10000 dataset, improving CNN classification accuracy to 79%
+                        through enhanced training diversity.
+                    </p>
+                    <div class="project-tech">
+                        <span>DCGAN</span> <span>Computer Vision</span> <span>CNN</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/cprashanthgit/" target="_blank" class="glass-card project-card hover-lift">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class='bx bx-map-alt'></i></div>
+                        <div class="project-links">
+                            <span class="project-date">Dec 2025</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Aerial-to-Map Image Translation</h3>
+                    <p class="project-desc">
+                        Implemented and compared U-Net, Pix2Pix, and SegNet models for supervised satellite-to-map
+                        translation, applying data augmentations to achieve best performance with U-Net (SSIM 0.827, MSE
+                        0.00127).
+                    </p>
+                    <div class="project-tech">
+                        <span>Deep Learning</span> <span>U-Net</span> <span>Pix2Pix</span>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <h2 class="section-title hidden">Licenses & <span>Certifications</span></h2>
+            <div class="certs-container hidden">
+                <ul class="cert-list">
+                    <li><i class='bx bx-certification'></i> <strong>Microsoft Azure 900</strong> - Foundational
+                        Microsoft Azure course <span>(2021)</span></li>
+                    <li><i class='bx bx-certification'></i> <strong>Google IT Support (Coursera)</strong> - Professional
+                        IT support by Google <span>(2020)</span></li>
+                    <li><i class='bx bx-certification'></i> <strong>Python for Beginners (Coursera)</strong> -
+                        Fundamentals of Python programming <span>(2020)</span></li>
+                    <li><i class='bx bx-certification'></i> <strong>Mechanical & CAD Tools</strong> - NX Essentials,
+                        CATIA, DELMIA, SIMULIA <span>(2018–2019)</span></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- <footer class="footer">
+        <p>Built directly for GitHub Pages. &copy; 2026 Prashanth Chitturi.</p>
+    </footer> -->
+
+    <script src="script.js"></script>
 </body>
+
 </html>
